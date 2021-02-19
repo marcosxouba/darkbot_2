@@ -1,9 +1,9 @@
 {
-    "botName": "BOT_NAME",
-    "ownerName": "OWNER_NAME",
-    "BarBarKey": "YOUR_APIKEY",
-    "ownerNumbers": "628885xxxxxx@s.whatsapp.net",
-    "languages": "ind",
+    "botName": "Dark_Bot",
+    "ownerName": "DarkZE",
+    "BarBarKey": "Ezequiel",
+    "ownerNumbers": "+524641228001@s.whatsapp.net",
+    "languages": "eng",
     "botPrefix": ".",
     "memberLimitss": "25",
     "userDefaultLimit": "30"
