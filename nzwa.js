@@ -2539,9 +2539,7 @@ async function starts() {
                                         nzwa.sendMessage(from, saying, text)
                                         break
                                 case 'antilinkgroup':
-                                	if (!isGroup) return reply(mess.only.group)
-					if (!isGroupAdmins) return reply(mess.only.admin)
-					if (!isBotGroupAdmins) return reply(mess.only.Badmin)
+                                	
 					if (args.length < 1) return reply('ketik 1 untuk mengaktifkan')
 					if (Number(args[0]) === 1) {
 						if (isAntiLink) return reply('anti link group sudah aktif')
@@ -2552,7 +2550,7 @@ async function starts() {
 					} else if (Number(args[0]) === 0) {
 						if (!isantilink) return reply('Mode anti link group sudah disable')
 						var ini = anti.indexOf(from)
-						antilink.splice(ini, 1)
+						antilink.splice(ini, 0)
 						fs.writeFileSync('./database/json/antilink.json', JSON.stringify(antilink))
 						reply('Sukes menonaktifkan anti link group di group ini ✔️')
 					} else {
