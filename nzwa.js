@@ -385,7 +385,7 @@ async function starts() {
                         const q = args.join(' ')
                         
                         mess = {
-                                wait: '⌛ Sedang di Prosess ⌛',
+                                wait: '⌛ Espera un momento... ⌛',
                                 succsess: '✔️ Berhasil ✔️',
                                 levelon: '❬ ✔ ❭ *leveling telah aktif*',
                                 levelnoton: `❬ X ❭  *disable leveling*`,
@@ -399,7 +399,7 @@ async function starts() {
                                         ownerG: `[❗] Perintah ini hanya bisa di gunakan oleh owner group! ❌`,
                         	        admin: `[❗] Perintah ini hanya bisa di gunakan oleh admin group! ❌`,
                                         Badmin: `[❗] Perintah ini hanya bisa di gunakan ketika bot menjadi admin! ❌`,
-                                        daftarB: `──「 BELUM REGISTER 」──\nHalo kak !\nKamu belum Register nih, register dulu yuk... \n\nCommand : ${prefix}register nama|umur\nContoh : ${prefix}register Nazwa|16`,
+                                        daftarB: `──「 Registrate Para Usarme 」──\nHola amigo !\nAun no te haz registrado, registrate por ejemplo:.. \n\nCommand : ${prefix}register nama|umur\nContoh : ${prefix}register Nombre|16`,
                                 }
                         }
                 	const apakah = ['Ya','Tidak']
