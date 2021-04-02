@@ -1,13 +1,13 @@
 exports.wait = () => {
-        return `⌛ Being Processed ⌛`
+        return `⌛ Procesando ⌛`
 }
 
 exports.timeEnd = () => {
-        return `Time has run out`
+        return `Tiempo acabado`
 }
 
 exports.succsess = () => {
-        return `✔️ Succsess ✔️`
+        return `✔️ Hecho ✔️`
 }
 
 exports.levelon = () => {
@@ -19,79 +19,79 @@ exports.levelnoton = () => {
 }
 
 exports.levelnol = () => {
-        return `*YOUR LEVEL STILL* 0 °-°`
+        return `*Tu nivel* 0 °-°`
 }
 
 exports.stick = () => {
-        return `[❗] Failed, an error occurred while converting the image to a sticker ❌`
+        return `[❗] Error ❌`
 }
 
 exports.Iv = () => {
-        return `❌ Invalid link ❌`
+        return `❌ Link inválido ❌`
 }
 
 exports.group = () => {
-        return `[❗] This command can only be used in groups! ❌`
+        return `[❗] Comando sólo para grupos! ❌`
 }
 
 exports.ownerG = () => {
-        return `[❗] This command can only be used by the owner group! ❌`
+        return `[❗] Comando sólo para owner! ❌`
 }
 
 exports.ownerB = () => {
-        return `[❗] This command can only be used by the owner bot! ❌`
+        return `[❗] Comando sólo para owner! ❌`
 }
 
 exports.admin = () => {
-        return `[❗] This command can only be used by group admins! ❌`
+        return `[❗] Comando sólo para admins! ❌`
 }
 
 exports.Badmin = () => {
-        return `[❗] This command can only be used when the bot becomes admin! ❌`
+        return `[❗] El bot necesita admin! ❌`
 }
 
 exports.daftarB = (prefix) => {
-        return `──「 NOT YET REGISTERED 」──\nHello Sis !\nYou haven't registered yet, let's register first... \n\nCommand : ${prefix}register nama|umur\nExample : ${prefix}register Nazwa|16`
+        return `──「 NOT YET REGISTERED 」──\nHello Sis !\nDebes registrarte primero \n\nCommand : ${prefix}register nama|umur\nExample : ${prefix}register Lena|17`
 }
 
 exports.daftarD = () => {
-        return `*「 ALREADY REGISTER 」*\n\n*you have registered in the bot database*`
+        return `*「 YA REGISTRADO 」*\n\n*ya estás registrado*`
 }
 
 exports.wrongf = () => {
-        return`*Incorrect format / blank text*`
+        return`*Formato incorrecto / texto vacío*`
 }
 
 exports.clears = () => {
-        return`*clear all Success*`
+        return`*Éxito al borrar todo*`
 }
 
 exports.pc = () => {
-        return`*「 REGISTRATION 」*\n\nif you haven't got the message. means you haven't saved your bot number*`
+        return`*「 Registro 」*\n\nsi no has recibido el mensaje no estás registrado*`
 }
 
 exports.registered = (namaUser, umurUser, serialUser, time, sender) => {
-        return`*「 REGISTER DATA 」*\n\nyou have registered with the data \n\n◪ *DATA* \n  │ \n  ├─ ❏ Name : ${namaUser} \n  ├─ ❏ Number : wa.me/${sender.split("@")[0]} \n  ├─ ❏ Age : ${umurUser} \n  ├─ ❏ Register Time : ${time} \n  │ \n └─ ❏ NS : ${serialUser} \n\n ❏ NOTE : DO NOT FORGET THIS NUMBER BECAUSE IT IS IMPORTANT :v`
+        return`*「 REGISTER DATA 」*\n\nregistrado con los datos: \n\n◪ *DATA* \n  │ \n  ├─ ❏ Name : ${namaUser} \n  ├─ ❏ Number : wa.me/${sender.split("@")[0]} \n  ├─ ❏ Age : ${umurUser} \n  ├─ ❏ Register Time : ${time} \n  │ \n └─ ❏ NS : ${serialUser} \n\n ❏ AVISO : ESTE NÚMERO PUEDE SER IMPORTANTE :v`
 }
 
 exports.cmdnf = (prefix, command) => {
-        return`command *${prefix}${command}* not found \ try to write *${prefix}menu*`
+        return`command *${prefix}${command}* no encontrado \ intenta escribir *${prefix}menu*`
 }
 
 exports.owneresce = (pushname) => {
-        return`*sorry but ${pushname} not the owner script*`
+        return`*perdona pero ${pushname} no es el propietario del script*`
 }
 
 exports.limitend = (pushname) => {
-        return`*sorry ${pushname} Today's limit is up*\n*The limit is reset every 00:00 hours*`
+        return`*sorry ${pushname} Tus límites de hoy *\n*se resetean siempre a las 00:00 horas*`
 }
 
 exports.limitcount = (limitCounts) => {
         return`
-*「 LIMIT COUNT 」*
-the rest of your limit : ${limitCounts}
+*「 XP Contador 」*
+tus límites son : ${limitCounts}
 
-NOTE : to get to the limit. can pass level up or buylimit`
+NOTE : Compra el límite`
 }
 
 exports.satukos = () => {
